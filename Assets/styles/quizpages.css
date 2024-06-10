@@ -1,0 +1,160 @@
+body{
+    background: url("../images/quiz-page-background.png");
+    /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #99d9ea;
+  /* margin:0px; */
+  padding-top: 65px;
+}
+
+#homepageimage{    
+    height: 60px;
+    width:60px;
+    margin: 0px;
+    top:50%;
+    left:90%;
+    position: fixed;
+    z-index: 2;
+   
+}
+
+.screen{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1;
+    left:0%;
+    top:0;
+    position: fixed;
+    display: block;   
+   
+}
+
+.container{
+    border: 1px solid ivory;
+    border-radius: 10px;
+    position: relative;
+    width: 90%;
+}
+.col-lg-12{
+    position: relative;
+    /* border:1px solid red; */
+}
+.timer{
+    color: ivory;
+    background-color: black;
+    width:80px;
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    right:5px;
+    text-align: center;
+    top:5px;
+    display: none;
+}
+
+.score-container{
+    display: none;
+    text-align: center;
+    align-content: center;
+}
+
+.quiz-container{
+    display:none;    
+}
+
+#question{
+    width:90%;
+    height:5%;
+    color:black;
+   
+   
+}
+#qnumdiv{
+    margin-top:20px;
+    text-align: center;
+}
+#qtext{
+    display: inline-block;
+    width:100%;
+    font-size: 20px;
+    text-align:start ;
+}
+#feedback{
+    text-align: center;
+    display: none;
+    background-color:rgb(35, 50, 190);
+    width:200px;
+    margin:auto;
+    border:1px inset;
+    color:gold;
+
+}
+.modal .modal-dialog .modal-content{
+    background-color: rgb(195, 213, 247) !important;
+    font-size:15px;
+}
+
+#quiz-start-div{
+    margin-left: auto;;
+    margin-right: auto;
+    width:150px;
+}
+#qmetadiv{
+    text-align: right;
+    font-size: small;
+}
+.btn-block{
+    text-align: left;
+}
+
+#completionmessage{
+    font-size: 25px;
+}
+#scoremessage{
+    font-size: 20px;
+    border:1px solid yellowgreen;
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellowgreen;
+    color: #770b9b;
+}
+
+#initial{
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.highscorecontainer{
+    display:none; 
+    text-align: center;
+}
+table,th,td{   
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    background-color: #007bff;
+}
+th{
+    background-color: black;
+    color: ivory;
+}
+table{
+    width: 95%;
+}
+
